@@ -13,5 +13,6 @@ struct CompassApp: App {
         WindowGroup {
             ContentView()
         }
+    //    .modelContainer(for: [Task.self, Anchor.self])
     }
 }
